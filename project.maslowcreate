@@ -28,8 +28,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Upper Bend",
-                    "x": 0.20204978038067348,
-                    "y": 0.28735632183908044,
+                    "x": 0.19912152269399705,
+                    "y": 0.2720306513409962,
                     "uniqueID": 171122,
                     "ioValues": [
                         {
@@ -107,7 +107,7 @@
                                 },
                                 {
                                     "name": "Bent?",
-                                    "ioValue": 10
+                                    "ioValue": 1
                                 }
                             ]
                         },
@@ -494,14 +494,6 @@
                     "fileTypeVersion": 1
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Center Length",
-                    "x": 0.06222547584187409,
-                    "y": 0.5823754789272031,
-                    "uniqueID": 612722,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 0.568081991215227,
@@ -521,6 +513,14 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Center Length",
+                    "x": 0.051244509516837476,
+                    "y": 0.6743295019157088,
+                    "uniqueID": 612722,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
@@ -566,7 +566,7 @@
                                 },
                                 {
                                     "name": "Bent?",
-                                    "ioValue": 10
+                                    "ioValue": 1
                                 }
                             ]
                         },
@@ -739,10 +739,28 @@
                     "fileTypeVersion": 1
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 0.42020497803806733,
+                    "y": 0.7471264367816093,
+                    "uniqueID": 849089,
+                    "ioValues": [
+                        {
+                            "name": "T",
+                            "ioValue": 3
+                        },
+                        {
+                            "name": "L",
+                            "ioValue": 100
+                        }
+                    ],
+                    "currentEquation": "L/2+2*T"
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.6727672035139092,
-                    "y": 0.5747126436781609,
+                    "x": 0.671303074670571,
+                    "y": 0.5977011494252873,
                     "uniqueID": 452143,
                     "ioValues": [
                         {
@@ -755,27 +773,9 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 56
                         }
                     ]
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 0.41727672035139096,
-                    "y": 0.7816091954022989,
-                    "uniqueID": 849089,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 1
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 1
-                        }
-                    ],
-                    "currentEquation": "x + y"
                 },
                 {
                     "atomType": "Output",
@@ -815,6 +815,13 @@
                     "ap2ID": 403885
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "T",
+                    "ap2Primary": false,
+                    "ap1ID": 559448,
+                    "ap2ID": 849089
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -827,6 +834,13 @@
                     "ap2Primary": false,
                     "ap1ID": 293190,
                     "ap2ID": 697138
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 950678,
+                    "ap2ID": 452143
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -850,17 +864,11 @@
                     "ap2ID": 171122
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "L",
                     "ap2Primary": false,
-                    "ap1ID": 950678
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 950678,
-                    "ap2ID": 452143
+                    "ap1ID": 612722,
+                    "ap2ID": 849089
                 },
                 {
                     "ap1Name": "Geometry",
@@ -868,6 +876,19 @@
                     "ap2Primary": false,
                     "ap1ID": 403885,
                     "ap2ID": 697138
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 849089,
+                    "ap2ID": 452143
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 452143
                 }
             ],
             "fileTypeVersion": 1
