@@ -72,6 +72,28 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "Sheet Metal Tab",
+            "x": 0.3989751098096633,
+            "y": 0.19540229885057472,
+            "uniqueID": 616382,
+            "projectID": "197395697",
+            "ioValues": [
+                {
+                    "name": "Length",
+                    "ioValue": 40
+                },
+                {
+                    "name": "Thickness",
+                    "ioValue": 3
+                },
+                {
+                    "name": "Bent?",
+                    "ioValue": 1
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Middle",
             "x": 0.2657393850658858,
@@ -172,11 +194,103 @@
             "max": 20
         },
         {
+            "atomType": "Molecule",
+            "name": "Bottom Tab",
+            "x": 0.25988286969253294,
+            "y": 0.6934865900383141,
+            "uniqueID": 509548,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.34333821376281115,
+                    "y": 0.2835249042145594,
+                    "uniqueID": 705078,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 3
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.2232796486090776,
+                    "y": 0.45210727969348663,
+                    "uniqueID": 721848,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 40
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 60
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.5051244509516838,
+                    "y": 0.4061302681992337,
+                    "uniqueID": 315410,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 30
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 705078,
+                    "ap2ID": 315410
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 721848,
+                    "ap2ID": 705078
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 315410
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
             "atomType": "GitHubMolecule",
             "name": "Sheet Metal Tab",
-            "x": 0.493411420204978,
-            "y": 0.2950191570881226,
-            "uniqueID": 616382,
+            "x": 0.47950219619326506,
+            "y": 0.6283524904214559,
+            "uniqueID": 618078,
             "projectID": "197395697",
             "ioValues": [
                 {
@@ -189,52 +303,19 @@
                 },
                 {
                     "name": "Bent?",
-                    "ioValue": 1
+                    "ioValue": 10
                 }
             ]
         },
         {
-            "atomType": "Molecule",
-            "name": "Bottom Tab",
-            "x": 0.25988286969253294,
-            "y": 0.6934865900383141,
-            "uniqueID": 509548,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "GitHubMolecule",
-            "name": "Sheet Metal Tab",
-            "x": 0.5431119920713577,
-            "y": 0.685823754789272,
-            "uniqueID": 618078,
-            "projectID": "197395697",
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.698389458272328,
+            "y": 0.5134099616858238,
+            "uniqueID": 181378,
             "ioValues": [
                 {
-                    "name": "Length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Thickness",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Attached Geometry",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Bent?",
+                    "name": "3D shape 1",
                     "ioValue": 10
                 }
             ]
@@ -256,11 +337,25 @@
             "ap2ID": 616382
         },
         {
+            "ap1Name": "Geometry",
+            "ap2Name": "Attached Geometry",
+            "ap2Primary": false,
+            "ap1ID": 617302,
+            "ap2ID": 618078
+        },
+        {
             "ap1Name": "number",
             "ap2Name": "Height",
             "ap2Primary": false,
             "ap1ID": 664348,
             "ap2ID": 617302
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 509548,
+            "ap2ID": 181378
         }
     ],
     "fileTypeVersion": 1,
