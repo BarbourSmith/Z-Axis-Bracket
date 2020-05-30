@@ -138,8 +138,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Sheet Metal Tab",
-            "x": 0.4480234260614934,
-            "y": 0.21839080459770116,
+            "x": 0.493411420204978,
+            "y": 0.2950191570881226,
             "uniqueID": 616382,
             "projectID": "197395697",
             "ioValues": [
@@ -176,6 +176,32 @@
             ],
             "allConnectors": [],
             "fileTypeVersion": 1
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Sheet Metal Tab",
+            "x": 0.49853587115666176,
+            "y": 0.7011494252873564,
+            "uniqueID": 789055,
+            "projectID": "197395697",
+            "ioValues": [
+                {
+                    "name": "Length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Thickness",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Attached Geometry",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Bent?",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Output",
