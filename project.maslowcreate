@@ -147,12 +147,63 @@
                             "topLevel": false,
                             "allAtoms": [
                                 {
+                                    "atomType": "GitHubMolecule",
+                                    "name": "8mm Lead Screw",
+                                    "x": 0.17715959004392387,
+                                    "y": 0.27586206896551724,
+                                    "uniqueID": 696191,
+                                    "projectID": "229500250",
+                                    "ioValues": []
+                                },
+                                {
                                     "atomType": "Input",
                                     "name": "Thickness",
                                     "x": 0,
                                     "y": 0.3831417624521073,
                                     "uniqueID": 741449,
                                     "ioValues": []
+                                },
+                                {
+                                    "atomType": "Rotate",
+                                    "name": "Rotate",
+                                    "x": 0.2869692532942899,
+                                    "y": 0.28735632183908044,
+                                    "uniqueID": 209916,
+                                    "ioValues": [
+                                        {
+                                            "name": "x-axis degrees",
+                                            "ioValue": -90
+                                        },
+                                        {
+                                            "name": "y-axis degrees",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "z-axis degrees",
+                                            "ioValue": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Translate",
+                                    "name": "Translate",
+                                    "x": 0.3953147877013177,
+                                    "y": 0.3065134099616858,
+                                    "uniqueID": 904552,
+                                    "ioValues": [
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 20
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0
+                                        }
+                                    ]
                                 },
                                 {
                                     "atomType": "Input",
@@ -163,10 +214,27 @@
                                     "ioValues": []
                                 },
                                 {
+                                    "atomType": "Assembly",
+                                    "name": "Assembly",
+                                    "x": 0.5461200585651537,
+                                    "y": 0.37931034482758624,
+                                    "uniqueID": 632066,
+                                    "ioValues": [
+                                        {
+                                            "name": "3D shape 1",
+                                            "ioValue": 10
+                                        },
+                                        {
+                                            "name": "3D shape 2",
+                                            "ioValue": 10
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "GitHubMolecule",
                                     "name": "12V DC Motor",
-                                    "x": 0.35212298682284043,
-                                    "y": 0.4674329501915709,
+                                    "x": 0.23499267935578333,
+                                    "y": 0.7126436781609194,
                                     "uniqueID": 557490,
                                     "projectID": "197010572",
                                     "ioValues": []
@@ -174,8 +242,8 @@
                                 {
                                     "atomType": "Translate",
                                     "name": "Translate",
-                                    "x": 0.513177159590044,
-                                    "y": 0.5900383141762452,
+                                    "x": 0.7086383601756955,
+                                    "y": 0.6053639846743295,
                                     "uniqueID": 680707,
                                     "ioValues": [
                                         {
@@ -205,8 +273,36 @@
                                     "ap1Name": "Geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
+                                    "ap1ID": 696191,
+                                    "ap2ID": 209916
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 209916,
+                                    "ap2ID": 904552
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 2",
+                                    "ap2Primary": false,
+                                    "ap1ID": 904552,
+                                    "ap2ID": 632066
+                                },
+                                {
+                                    "ap1Name": "Geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
                                     "ap1ID": 557490,
                                     "ap2ID": 680707
+                                },
+                                {
+                                    "ap1Name": "Geometry",
+                                    "ap2Name": "3D shape 1",
+                                    "ap2Primary": false,
+                                    "ap1ID": 557490,
+                                    "ap2ID": 632066
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -746,12 +842,12 @@
                     "uniqueID": 849089,
                     "ioValues": [
                         {
-                            "name": "T",
-                            "ioValue": 3
-                        },
-                        {
                             "name": "L",
                             "ioValue": 100
+                        },
+                        {
+                            "name": "T",
+                            "ioValue": 3
                         }
                     ],
                     "currentEquation": "L/2+2*T"
@@ -894,6 +990,15 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.6024890190336749,
+            "y": 0.7203065134099617,
+            "uniqueID": 716966,
+            "ioValues": [],
+            "selectedColorIndex": "2"
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
@@ -904,9 +1009,16 @@
     "allConnectors": [
         {
             "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 953302,
+            "ap2ID": 716966
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 953302
+            "ap1ID": 716966
         }
     ],
     "fileTypeVersion": 1,
