@@ -8,31 +8,15 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Constant",
-            "name": "Height",
-            "x": 0.07833089311859444,
-            "y": 0.19157088122605365,
-            "uniqueID": 664348,
-            "ioValues": [
-                {
-                    "name": "number",
-                    "ioValue": 100
-                }
-            ],
-            "evolve": false,
-            "min": 0,
-            "max": 20
-        },
-        {
             "atomType": "Molecule",
             "name": "Metal Part",
-            "x": 0.28111273792093705,
-            "y": 0.23371647509578544,
+            "x": 0.28550512445095166,
+            "y": 0.21839080459770116,
             "uniqueID": 953302,
             "ioValues": [
                 {
                     "name": "Thickness",
-                    "ioValue": 10
+                    "ioValue": 3
                 },
                 {
                     "name": "Center Length",
@@ -50,11 +34,11 @@
                     "ioValues": [
                         {
                             "name": "Thickness",
-                            "ioValue": 10
+                            "ioValue": 3
                         },
                         {
                             "name": "Center Length",
-                            "ioValue": 10
+                            "ioValue": 100
                         }
                     ],
                     "topLevel": false,
@@ -129,11 +113,11 @@
                     "ioValues": [
                         {
                             "name": "Thickness",
-                            "ioValue": 10
+                            "ioValue": 3
                         },
                         {
                             "name": "Center Length",
-                            "ioValue": 10
+                            "ioValue": 100
                         }
                     ],
                     "topLevel": false,
@@ -155,7 +139,7 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 10
+                                    "ioValue": 100
                                 },
                                 {
                                     "name": "y length",
@@ -172,7 +156,7 @@
                             "ioValues": [
                                 {
                                     "name": "height",
-                                    "ioValue": 10
+                                    "ioValue": 3
                                 }
                             ]
                         },
@@ -240,11 +224,11 @@
                     "ioValues": [
                         {
                             "name": "Thickness",
-                            "ioValue": 10
+                            "ioValue": 3
                         },
                         {
                             "name": "Center Length",
-                            "ioValue": 10
+                            "ioValue": 100
                         }
                     ],
                     "topLevel": false,
