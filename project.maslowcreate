@@ -20,7 +20,7 @@
                 },
                 {
                     "name": "Center Length",
-                    "ioValue": 195
+                    "ioValue": 175
                 }
             ],
             "topLevel": false,
@@ -38,7 +38,7 @@
                         },
                         {
                             "name": "Center Length",
-                            "ioValue": 195
+                            "ioValue": 175
                         }
                     ],
                     "topLevel": false,
@@ -85,7 +85,7 @@
                             "ioValues": [
                                 {
                                     "name": "height",
-                                    "ioValue": 60
+                                    "ioValue": 90
                                 }
                             ]
                         },
@@ -419,7 +419,7 @@
                             "ioValues": [
                                 {
                                     "name": "L",
-                                    "ioValue": 195
+                                    "ioValue": 175
                                 }
                             ],
                             "currentEquation": "L/2"
@@ -440,7 +440,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 97.5
+                                    "ioValue": 87.5
                                 },
                                 {
                                     "name": "yDist",
@@ -575,7 +575,7 @@
                         },
                         {
                             "name": "Center Length",
-                            "ioValue": 195
+                            "ioValue": 175
                         }
                     ],
                     "topLevel": false,
@@ -597,7 +597,7 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 195
+                                    "ioValue": 175
                                 },
                                 {
                                     "name": "y length",
@@ -707,7 +707,7 @@
                         },
                         {
                             "name": "Center Length",
-                            "ioValue": 195
+                            "ioValue": 175
                         }
                     ],
                     "topLevel": false,
@@ -743,25 +743,25 @@
                             ]
                         },
                         {
-                            "atomType": "Extrude",
-                            "name": "Extrude",
-                            "x": 0.36530014641288433,
-                            "y": 0.4444444444444444,
-                            "uniqueID": 811755,
-                            "ioValues": [
-                                {
-                                    "name": "height",
-                                    "ioValue": 60
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Input",
                             "name": "Center Length",
                             "x": 0,
                             "y": 0.5823754789272031,
                             "uniqueID": 818943,
                             "ioValues": []
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.3667642752562225,
+                            "y": 0.4559386973180076,
+                            "uniqueID": 811755,
+                            "ioValues": [
+                                {
+                                    "name": "height",
+                                    "ioValue": 50
+                                }
+                            ]
                         },
                         {
                             "atomType": "Rectangle",
@@ -810,7 +810,7 @@
                             "ioValues": [
                                 {
                                     "name": "L",
-                                    "ioValue": 195
+                                    "ioValue": 175
                                 }
                             ],
                             "currentEquation": "L/-2"
@@ -824,7 +824,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": -97.5
+                                    "ioValue": -87.5
                                 },
                                 {
                                     "name": "yDist",
@@ -867,18 +867,18 @@
                             "ap2ID": 867413
                         },
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "Attached Geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 811755,
-                            "ap2ID": 142894
-                        },
-                        {
                             "ap1Name": "number or geometry",
                             "ap2Name": "L",
                             "ap2Primary": false,
                             "ap1ID": 818943,
                             "ap2ID": 153875
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Attached Geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 811755,
+                            "ap2ID": 142894
                         },
                         {
                             "ap1Name": "geometry",
@@ -919,7 +919,7 @@
                     "ioValues": [
                         {
                             "name": "L",
-                            "ioValue": 195
+                            "ioValue": 175
                         },
                         {
                             "name": "T",
@@ -945,7 +945,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 103.5
+                            "ioValue": 93.5
                         }
                     ]
                 },
