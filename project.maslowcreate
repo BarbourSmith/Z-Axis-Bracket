@@ -8,34 +8,68 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.16764275256222547,
+            "atomType": "Molecule",
+            "name": "Middle",
+            "x": 0.23865300146412882,
             "y": 0.4789272030651341,
-            "uniqueID": 555926,
-            "ioValues": [
+            "uniqueID": 617302,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
                 {
-                    "name": "x length",
-                    "ioValue": 10
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.28550512445095166,
+                    "y": 0.3333333333333333,
+                    "uniqueID": 848455,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 100
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 60
+                        }
+                    ]
                 },
                 {
-                    "name": "y length",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.3089311859443631,
-            "y": 0.421455938697318,
-            "uniqueID": 577637,
-            "ioValues": [
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.4399707174231332,
+                    "y": 0.2720306513409962,
+                    "uniqueID": 143731,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 3
+                        }
+                    ]
+                },
                 {
-                    "name": "height",
-                    "ioValue": 3
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
                 }
-            ]
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 848455,
+                    "ap2ID": 143731
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 143731
+                }
+            ],
+            "fileTypeVersion": 1
         },
         {
             "atomType": "GitHubMolecule",
@@ -71,15 +105,7 @@
             "ioValues": []
         }
     ],
-    "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 555926,
-            "ap2ID": 577637
-        }
-    ],
+    "allConnectors": [],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
     "circleSegmentSize": 2
