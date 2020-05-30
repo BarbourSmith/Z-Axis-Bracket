@@ -25,11 +25,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 3
+                            "ioValue": 40
                         },
                         {
                             "name": "y length",
-                            "ioValue": 40
+                            "ioValue": 3
                         }
                     ]
                 },
@@ -145,11 +145,15 @@
             "ioValues": [
                 {
                     "name": "Length",
-                    "ioValue": 10
+                    "ioValue": 40
+                },
+                {
+                    "name": "Thickness",
+                    "ioValue": 3
                 },
                 {
                     "name": "Bent?",
-                    "ioValue": 10
+                    "ioValue": 1
                 }
             ]
         },
