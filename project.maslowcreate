@@ -20,7 +20,7 @@
                 },
                 {
                     "name": "Center Length",
-                    "ioValue": 215
+                    "ioValue": 195
                 }
             ],
             "topLevel": false,
@@ -38,7 +38,7 @@
                         },
                         {
                             "name": "Center Length",
-                            "ioValue": 215
+                            "ioValue": 195
                         }
                     ],
                     "topLevel": false,
@@ -419,7 +419,7 @@
                             "ioValues": [
                                 {
                                     "name": "L",
-                                    "ioValue": 215
+                                    "ioValue": 195
                                 }
                             ],
                             "currentEquation": "L/2"
@@ -440,7 +440,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 107.5
+                                    "ioValue": 97.5
                                 },
                                 {
                                     "name": "yDist",
@@ -575,7 +575,7 @@
                         },
                         {
                             "name": "Center Length",
-                            "ioValue": 215
+                            "ioValue": 195
                         }
                     ],
                     "topLevel": false,
@@ -597,7 +597,7 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 215
+                                    "ioValue": 195
                                 },
                                 {
                                     "name": "y length",
@@ -707,7 +707,7 @@
                         },
                         {
                             "name": "Center Length",
-                            "ioValue": 215
+                            "ioValue": 195
                         }
                     ],
                     "topLevel": false,
@@ -810,7 +810,7 @@
                             "ioValues": [
                                 {
                                     "name": "L",
-                                    "ioValue": 215
+                                    "ioValue": 195
                                 }
                             ],
                             "currentEquation": "L/-2"
@@ -824,7 +824,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": -107.5
+                                    "ioValue": -97.5
                                 },
                                 {
                                     "name": "yDist",
@@ -919,7 +919,7 @@
                     "ioValues": [
                         {
                             "name": "L",
-                            "ioValue": 215
+                            "ioValue": 195
                         },
                         {
                             "name": "T",
@@ -945,7 +945,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 113.5
+                            "ioValue": 103.5
                         }
                     ]
                 },
