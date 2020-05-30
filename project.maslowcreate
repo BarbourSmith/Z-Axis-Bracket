@@ -85,15 +85,15 @@
                             "ioValues": [
                                 {
                                     "name": "height",
-                                    "ioValue": 40
+                                    "ioValue": 60
                                 }
                             ]
                         },
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Sheet Metal Tab",
-                            "x": 0.7108345534407027,
-                            "y": 0.13409961685823754,
+                            "x": 0.7174231332357247,
+                            "y": 0.26436781609195403,
                             "uniqueID": 473744,
                             "projectID": "197395697",
                             "ioValues": [
@@ -107,6 +107,23 @@
                                 },
                                 {
                                     "name": "Bent?",
+                                    "ioValue": 10
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Assembly",
+                            "name": "Assembly",
+                            "x": 0.6105417276720351,
+                            "y": 0.5019157088122606,
+                            "uniqueID": 846800,
+                            "ioValues": [
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 2",
                                     "ioValue": 10
                                 }
                             ]
@@ -146,6 +163,36 @@
                                     "ioValues": []
                                 },
                                 {
+                                    "atomType": "GitHubMolecule",
+                                    "name": "12V DC Motor",
+                                    "x": 0.35212298682284043,
+                                    "y": 0.4674329501915709,
+                                    "uniqueID": 557490,
+                                    "projectID": "197010572",
+                                    "ioValues": []
+                                },
+                                {
+                                    "atomType": "Translate",
+                                    "name": "Translate",
+                                    "x": 0.513177159590044,
+                                    "y": 0.5900383141762452,
+                                    "uniqueID": 680707,
+                                    "ioValues": [
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 30
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Output",
                                     "name": "Output",
                                     "x": 0.9853587115666179,
@@ -153,7 +200,21 @@
                                     "ioValues": []
                                 }
                             ],
-                            "allConnectors": [],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "Geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 557490,
+                                    "ap2ID": 680707
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 680707
+                                }
+                            ],
                             "fileTypeVersion": 1
                         },
                         {
@@ -251,10 +312,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "Attached Geometry",
+                            "ap2Name": "3D shape 1",
                             "ap2Primary": false,
                             "ap1ID": 565494,
-                            "ap2ID": 473744
+                            "ap2ID": 846800
                         },
                         {
                             "ap1Name": "Geometry",
@@ -262,6 +323,20 @@
                             "ap2Primary": true,
                             "ap1ID": 473744,
                             "ap2ID": 661619
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Attached Geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 846800,
+                            "ap2ID": 473744
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "3D shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": 911447,
+                            "ap2ID": 846800
                         },
                         {
                             "ap1Name": "geometry",
@@ -650,6 +725,27 @@
                     "fileTypeVersion": 1
                 },
                 {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.5505124450951684,
+                    "y": 0.6590038314176245,
+                    "uniqueID": 950678,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": -90
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -691,6 +787,13 @@
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 697138
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 697138,
+                    "ap2ID": 950678
                 },
                 {
                     "ap1Name": "Geometry",
