@@ -29,7 +29,7 @@
                     "atomType": "Molecule",
                     "name": "Upper Bend",
                     "x": 0.20204978038067348,
-                    "y": 0.27586206896551724,
+                    "y": 0.28735632183908044,
                     "uniqueID": 171122,
                     "ioValues": [
                         {
@@ -52,28 +52,6 @@
                             "ioValues": []
                         },
                         {
-                            "atomType": "GitHubMolecule",
-                            "name": "Sheet Metal Tab",
-                            "x": 0.48023426061493407,
-                            "y": 0.19157088122605365,
-                            "uniqueID": 473744,
-                            "projectID": "197395697",
-                            "ioValues": [
-                                {
-                                    "name": "Length",
-                                    "ioValue": 60
-                                },
-                                {
-                                    "name": "Thickness",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "Bent?",
-                                    "ioValue": 10
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Input",
                             "name": "Center Length",
                             "x": 0,
@@ -94,15 +72,15 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 10
+                                    "ioValue": 3
                                 }
                             ]
                         },
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.3923865300146413,
-                            "y": 0.632183908045977,
+                            "x": 0.3513909224011713,
+                            "y": 0.5019157088122606,
                             "uniqueID": 565494,
                             "ioValues": [
                                 {
@@ -112,10 +90,77 @@
                             ]
                         },
                         {
+                            "atomType": "GitHubMolecule",
+                            "name": "Sheet Metal Tab",
+                            "x": 0.7108345534407027,
+                            "y": 0.13409961685823754,
+                            "uniqueID": 473744,
+                            "projectID": "197395697",
+                            "ioValues": [
+                                {
+                                    "name": "Length",
+                                    "ioValue": 60
+                                },
+                                {
+                                    "name": "Thickness",
+                                    "ioValue": 3
+                                },
+                                {
+                                    "name": "Bent?",
+                                    "ioValue": 10
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Molecule",
+                            "name": "Motor",
+                            "x": 0.46778916544655924,
+                            "y": 0.6398467432950191,
+                            "uniqueID": 911447,
+                            "ioValues": [
+                                {
+                                    "name": "Thickness",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "Center Length",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Input",
+                                    "name": "Thickness",
+                                    "x": 0,
+                                    "y": 0.3831417624521073,
+                                    "uniqueID": 741449,
+                                    "ioValues": []
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Center Length",
+                                    "x": 0,
+                                    "y": 0.5823754789272031,
+                                    "uniqueID": 353591,
+                                    "ioValues": []
+                                },
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.9853587115666179,
+                                    "y": 0.5,
+                                    "ioValues": []
+                                }
+                            ],
+                            "allConnectors": [],
+                            "fileTypeVersion": 1
+                        },
+                        {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.5790629575402636,
-                            "y": 0.5172413793103449,
+                            "x": 0.8338213762811127,
+                            "y": 0.3409961685823755,
                             "uniqueID": 661619,
                             "ioValues": [
                                 {
@@ -129,27 +174,6 @@
                                 {
                                     "name": "z-axis degrees",
                                     "ioValue": 90
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Translate",
-                            "name": "Translate",
-                            "x": 0.7276720351390923,
-                            "y": 0.5900383141762452,
-                            "uniqueID": 675056,
-                            "ioValues": [
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 50
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 0
                                 }
                             ]
                         },
@@ -173,6 +197,27 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "ioValues": []
+                        },
+                        {
+                            "atomType": "Translate",
+                            "name": "Translate",
+                            "x": 0.8806734992679356,
+                            "y": 0.6973180076628352,
+                            "uniqueID": 675056,
+                            "ioValues": [
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 50
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -189,13 +234,6 @@
                             "ap2Primary": false,
                             "ap1ID": 745019,
                             "ap2ID": 944205
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 473744,
-                            "ap2ID": 661619
                         },
                         {
                             "ap1Name": "number or geometry",
@@ -219,6 +257,13 @@
                             "ap2ID": 473744
                         },
                         {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 473744,
+                            "ap2ID": 661619
+                        },
+                        {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
@@ -226,17 +271,17 @@
                             "ap2ID": 675056
                         },
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 675056
-                        },
-                        {
                             "ap1Name": "result",
                             "ap2Name": "xDist",
                             "ap2Primary": false,
                             "ap1ID": 484696,
                             "ap2ID": 675056
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 675056
                         }
                     ],
                     "fileTypeVersion": 1
@@ -421,7 +466,7 @@
                                 },
                                 {
                                     "name": "Thickness",
-                                    "ioValue": 10
+                                    "ioValue": 3
                                 },
                                 {
                                     "name": "Bent?",
@@ -463,7 +508,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 10
+                                    "ioValue": 3
                                 }
                             ]
                         },
@@ -519,7 +564,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 10
+                                    "ioValue": 3
                                 }
                             ]
                         },
@@ -694,6 +739,40 @@
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "12V DC Motor",
+                    "x": 0.27306002928257683,
+                    "y": 0.40229885057471265,
+                    "uniqueID": 974690,
+                    "projectID": "197010572",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.4084919472913617,
+                    "y": 0.3831417624521073,
+                    "uniqueID": 324350,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
