@@ -28,8 +28,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Upper Bend",
-                    "x": 0.19912152269399705,
-                    "y": 0.2720306513409962,
+                    "x": 0.19838945827232798,
+                    "y": 0.26053639846743293,
                     "uniqueID": 171122,
                     "ioValues": [
                         {
@@ -197,7 +197,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 20
+                                            "ioValue": 25
                                         },
                                         {
                                             "name": "zDist",
@@ -214,6 +214,15 @@
                                     "ioValues": []
                                 },
                                 {
+                                    "atomType": "GitHubMolecule",
+                                    "name": "12V DC Motor",
+                                    "x": 0.42679355783308925,
+                                    "y": 0.5019157088122606,
+                                    "uniqueID": 557490,
+                                    "projectID": "197010572",
+                                    "ioValues": []
+                                },
+                                {
                                     "atomType": "Assembly",
                                     "name": "Assembly",
                                     "x": 0.5461200585651537,
@@ -227,23 +236,69 @@
                                         {
                                             "name": "3D shape 2",
                                             "ioValue": 10
+                                        },
+                                        {
+                                            "name": "3D shape 3",
+                                            "ioValue": 10
                                         }
                                     ]
                                 },
                                 {
                                     "atomType": "GitHubMolecule",
-                                    "name": "12V DC Motor",
-                                    "x": 0.23499267935578333,
-                                    "y": 0.7126436781609194,
-                                    "uniqueID": 557490,
-                                    "projectID": "197010572",
+                                    "name": "8mm to 8mm Shaft Coupler",
+                                    "x": 0.19765739385065886,
+                                    "y": 0.7471264367816093,
+                                    "uniqueID": 349722,
+                                    "projectID": "229323413",
                                     "ioValues": []
+                                },
+                                {
+                                    "atomType": "Rotate",
+                                    "name": "Rotate",
+                                    "x": 0.30380673499267935,
+                                    "y": 0.735632183908046,
+                                    "uniqueID": 554803,
+                                    "ioValues": [
+                                        {
+                                            "name": "x-axis degrees",
+                                            "ioValue": -90
+                                        },
+                                        {
+                                            "name": "y-axis degrees",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "z-axis degrees",
+                                            "ioValue": 0
+                                        }
+                                    ]
                                 },
                                 {
                                     "atomType": "Translate",
                                     "name": "Translate",
-                                    "x": 0.7086383601756955,
-                                    "y": 0.6053639846743295,
+                                    "x": 0.424597364568082,
+                                    "y": 0.7854406130268199,
+                                    "uniqueID": 475241,
+                                    "ioValues": [
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 8
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Translate",
+                                    "name": "Translate",
+                                    "x": 0.7364568081991216,
+                                    "y": 0.524904214559387,
                                     "uniqueID": 680707,
                                     "ioValues": [
                                         {
@@ -292,16 +347,37 @@
                                 },
                                 {
                                     "ap1Name": "Geometry",
+                                    "ap2Name": "3D shape 1",
+                                    "ap2Primary": false,
+                                    "ap1ID": 557490,
+                                    "ap2ID": 632066
+                                },
+                                {
+                                    "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
-                                    "ap1ID": 557490,
+                                    "ap1ID": 632066,
                                     "ap2ID": 680707
                                 },
                                 {
                                     "ap1Name": "Geometry",
-                                    "ap2Name": "3D shape 1",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 349722,
+                                    "ap2ID": 554803
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 554803,
+                                    "ap2ID": 475241
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 3",
                                     "ap2Primary": false,
-                                    "ap1ID": 557490,
+                                    "ap1ID": 475241,
                                     "ap2ID": 632066
                                 },
                                 {
