@@ -7,6 +7,12 @@
 ## Z Axis Bracket
 
 
+## Metal Part
+
+
+## Upper Bend
+
+
 ## Sheet Metal Tab
 
 
@@ -14,6 +20,9 @@
 
 
 Readme text here
+
+
+## Lower Bend
 
 
 ## Sheet Metal Tab
