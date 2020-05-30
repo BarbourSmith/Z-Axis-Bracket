@@ -9,9 +9,73 @@
     "allAtoms": [
         {
             "atomType": "Molecule",
+            "name": "Top Tab",
+            "x": 0.2562225475841874,
+            "y": 0.18007662835249041,
+            "uniqueID": 244079,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.2679355783308931,
+                    "y": 0.47126436781609193,
+                    "uniqueID": 565250,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 3
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 40
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.5190336749633968,
+                    "y": 0.3333333333333333,
+                    "uniqueID": 268291,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 40
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 565250,
+                    "ap2ID": 268291
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 268291
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Middle",
-            "x": 0.23865300146412882,
-            "y": 0.4789272030651341,
+            "x": 0.2569546120058565,
+            "y": 0.42528735632183906,
             "uniqueID": 617302,
             "ioValues": [],
             "topLevel": false,
@@ -74,21 +138,13 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Sheet Metal Tab",
-            "x": 0.4890190336749634,
-            "y": 0.3754789272030651,
+            "x": 0.4480234260614934,
+            "y": 0.21839080459770116,
             "uniqueID": 616382,
             "projectID": "197395697",
             "ioValues": [
                 {
                     "name": "Length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Thickness",
-                    "ioValue": 3
-                },
-                {
-                    "name": "Attached Geometry",
                     "ioValue": 10
                 },
                 {
@@ -98,6 +154,26 @@
             ]
         },
         {
+            "atomType": "Molecule",
+            "name": "Bottom Tab",
+            "x": 0.25988286969253294,
+            "y": 0.6934865900383141,
+            "uniqueID": 509548,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
@@ -105,7 +181,15 @@
             "ioValues": []
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "Attached Geometry",
+            "ap2Primary": false,
+            "ap1ID": 244079,
+            "ap2ID": 616382
+        }
+    ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
     "circleSegmentSize": 2
